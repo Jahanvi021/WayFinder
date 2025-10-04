@@ -1,9 +1,13 @@
 # 🚗 PathFinder — A* Route Planning Project
 
+[![C++](https://img.shields.io/badge/language-C++-blue.svg)](https://isocpp.org/) 
+[![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
+
 This repository contains the **A\* Route Planning** project built in C++ using the **IO2D graphics library**.  
 It finds the **shortest path between two points** on a real **OpenStreetMap (OSM)** map using the **A\*** algorithm.
 
-<img src="map.png" width="600" height="450" />
+<img src="map.png" alt="Map Preview" width="600" height="450" />
 
 ---
 
@@ -100,5 +104,21 @@ More help: GitHub Issue Thread
 
 💡 Tip: If you see errors with --config, try removing -- from the command.
 
+📂 Project Structure
+arduino
+Copy code
+PathFinder/
+├── CMakeLists.txt
+├── include/
+│   ├── route_model.h
+│   ├── route_planner.h
+├── src/
+│   ├── main.cpp
+│   ├── route_model.cpp
+│   ├── route_planner.cpp
+├── map/
+│   └── map.osm
+├── build/
+└── README.md
 👤 Author
 Made with ❤️ by Jahanvi021
